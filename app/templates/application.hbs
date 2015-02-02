@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember.js</h2>
+
+<div class="nav">
+  {{#link-to "application"}}home{{/link-to}}
+
+  {{#each subreddit in model}}
+    {{#link-to 'posts' subreddit}}{{subreddit}}{{/link-to}}
+  {{/each}}
+</div>
 
 {{outlet}}

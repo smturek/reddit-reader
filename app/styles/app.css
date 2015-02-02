@@ -1,3 +1,48 @@
-html, body {
-  margin: 20px;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
+
+html, body {
+  background: #202030;
+  color: #b0a990;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #561D25;
+}
+
+a {
+  color: #b0a990;
+  text-decoration: none;
+}
+
+.nav {
+  background: #39304a;
+  padding: 10px 0px;
+}
+
+.nav a {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background: #202030;
+}
+
+.posts {
+  padding: 20px;
+}
+
+.posts:nth-of-type(odd) {
+  background: #39304a;
+}
+
+pallette
+202030 - dark purple
+39304a - purple
+635c51 - dark brown
+7d7461 - light brown
+b0a990 - khaki
+561D25 - wine
